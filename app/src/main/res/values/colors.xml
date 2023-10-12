@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="comment_card_color">#CD96D6</color>
+    <color name="comment_email_color">#7B0391</color>
+    <color name="posts_text_color">#4103AF</color>
+    <color name="posts_background">#4756AC</color>
+</resources>
