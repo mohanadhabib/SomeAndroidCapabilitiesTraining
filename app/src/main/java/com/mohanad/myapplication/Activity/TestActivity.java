@@ -21,13 +21,14 @@ public class TestActivity extends AppCompatActivity {
         MaterialButton takePhoto = findViewById(R.id.take_photo);
         MaterialButton pickPhoto = findViewById(R.id.pick_photo);
         MaterialButton goToPosts = findViewById(R.id.go_to_posts);
+        MaterialButton goToPhotos = findViewById(R.id.go_to_photos);
         ImageView image = findViewById(R.id.image);
         ActivityResultLauncher<Intent> launcher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> image.setImageURI(result.getData().getData()));
         ActivityResultLauncher<Intent> capture = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> {
             Bitmap bitmap = (Bitmap) result.getData().getExtras().get("data");
             image.setImageBitmap(bitmap);
         });
-        sendEmail.setOnClickListener(v -> {
+        sendEmail.setOnClickListener(v -> { 
             Intent i = new Intent(Intent.ACTION_SEND);
             i.putExtra(Intent.EXTRA_EMAIL,new String[]{"1234@gmail.com"});
             i.putExtra(Intent.EXTRA_SUBJECT,"Testing of Sending Email");
@@ -49,7 +50,10 @@ public class TestActivity extends AppCompatActivity {
         goToPosts.setOnClickListener(v -> {
             Intent intent = new Intent(getApplicationContext(), PostsActivity.class);
             startActivity(intent);
-            finish();
+        });
+        goToPhotos.setOnClickListener(v ->{
+            Intent intent = new Intent(getApplicationContext(), PhotosActivity.class);
+            startActivity(intent);
         });
     }
 }
