@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.mohanad.myapplication.Adapters.PhotosAdapter;
+import com.mohanad.myapplication.Adapter.PhotosAdapter;
 import com.mohanad.myapplication.ApiService.ApiCalls;
 import com.mohanad.myapplication.ApiService.RetrofitServiceForImage;
 import com.mohanad.myapplication.Model.Photo;

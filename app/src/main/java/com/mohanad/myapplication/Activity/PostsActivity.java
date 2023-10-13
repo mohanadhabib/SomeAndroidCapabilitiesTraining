@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.Toast;
-import com.mohanad.myapplication.Adapters.PostsAdapter;
+import com.mohanad.myapplication.Adapter.PostsAdapter;
 import com.mohanad.myapplication.ApiService.ApiCalls;
 import com.mohanad.myapplication.ApiService.RetrofitService;
 import com.mohanad.myapplication.Model.Posts;

@@ -6,4 +6,8 @@
     <string name="welcome_to_home">Welcome to Home</string>
     <string name="welcome_to_chat">Welcome to Chat</string>
     <string name="welcome_to_status">Welcome to Status</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
 </resources>

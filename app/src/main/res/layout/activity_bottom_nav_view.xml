@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/constraint"
     tools:context=".Activity.BottomNavViewActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/frame"
         android:background="@color/comment_card_color"
+        app:menu="@menu/tool_bar_menu"
+        app:titleTextColor="@color/posts_text_color"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <FrameLayout

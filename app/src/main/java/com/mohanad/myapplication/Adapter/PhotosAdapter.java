@@ -1,4 +1,4 @@
-package com.mohanad.myapplication.Adapters;
+package com.mohanad.myapplication.Adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;

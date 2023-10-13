@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.mohanad.myapplication.Adapters.CommentsAdapter;
+import com.mohanad.myapplication.Adapter.CommentsAdapter;
 import com.mohanad.myapplication.ApiService.ApiCalls;
 import com.mohanad.myapplication.ApiService.RetrofitService;
 import com.mohanad.myapplication.Model.Comments;
