@@ -10,4 +10,11 @@
     <string name="b">B</string>
     <string name="c">C</string>
     <string name="d">D</string>
+    <string name="_0">0</string>
+    <string name="hello_zero">Hello Zero</string>
+    <string name="hello_one">Hello One</string>
+    <string name="hello_two">Hello Two</string>
+    <string name="hello_three">Hello Three</string>
+    <string name="enter_your_email">Enter Your Email :</string>
+    <string name="enter_your_password">Enter Your Password :</string>
 </resources>
